@@ -1,0 +1,24 @@
+@startuml
+
+skinparam packageStyle rectangle
+
+
+left to right direction
+
+rectangle "System Actors" as actors {
+    actor "Human Resources\n\tManager" as HRM
+}
+
+
+rectangle "Use Cases" as usecases{
+    usecase "UC1 - Register skills" as UC1
+    HRM -- UC1
+    usecase "UC2 - Register a job" as UC2
+    HRM -- UC2
+    usecase "UC3 - Register a collaborator" as UC3
+    HRM -- UC3
+
+}
+
+
+@enduml

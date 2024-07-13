@@ -1,0 +1,35 @@
+@startuml
+skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
+
+title System Sequence Diagram (SSD)
+
+autonumber
+
+actor "Human Resources Manager" as HRM
+participant ":System" as System
+
+activate HRM
+
+    HRM -> System : Asks to create a new skill
+    activate System
+
+        System --> HRM : Request data (i.e. name)
+    deactivate System
+
+    HRM -> System : Types Request data
+    activate System
+
+            System --> HRM : Shows all data and request confirmation
+    deactivate System
+
+     HRM -> System : Confirms data
+        activate System
+
+                System --> HRM : Shows operation success
+        deactivate System
+
+deactivate HRM
+
+@enduml
