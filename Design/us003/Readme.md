@@ -25,8 +25,8 @@ They can consider others that they consider to be relevant.
 
 > **Question:** What should be the accepted format for the emails? Should only specific email services be accepted?
 >
-> **Answer:** A valid email address consists of an email prefix and an email domain, both in acceptable formats.
-The prefix appears to the left of the @ symbol. The domain appears to the right of the @ symbol.
+> **Answer:** A valid email address consists of an email prefix and an email project.domain, both in acceptable formats.
+The prefix appears to the left of the @ symbol. The project.domain appears to the right of the @ symbol.
 
 > **Question:** Is there any limitation regarding the length of the name of the collaborator?
 >
